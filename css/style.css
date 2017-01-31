@@ -1,0 +1,104 @@
+/* 
+
+Project Name: Darius Delapeta Websume 
+Client: Myself
+Author: Darius Delapeta 
+Developed @ my house, in my PJ's with hot chocolate
+
+*/
+
+body {
+	background: url('../images/coffee.jpg');
+	/* the follow is the code to have the image display as a full page */
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#container {
+
+	opacity: 1;
+	background: rgba(54, 56, 47, 0.8);
+	width: 500px;
+	color: #D3D333;
+	padding: 10px;
+	border-radius: 15px;	
+
+}
+
+h1 {
+	font-size: 80px;
+	font-family: 'Yellowtail', cursive;
+	text-align: center;
+	margin: 0 auto 0 auto;
+}
+
+h2 {
+	background: #EE6034;
+	color: #3D3C3F;
+	font-family: 'Comfortaa', cursive;
+	width: auto;
+	margin: 0 auto;
+	padding: 5px;
+	/*add rounded corners*/
+	border-radius: 5px;
+	text-align: center;
+}
+
+a {
+	color: #D32634;
+	/*remove underline between social media buttons*/
+	text-decoration: none;
+}
+
+h3 {
+	font size: 12px;
+	margin-top: 5px;
+	text-align: center;
+	color: black;
+	font-family: 'Comfortaa', cursive;
+}
+
+p {
+	font-size: 20px;
+	font-family: 'Comfortaa', cursive;
+}
+
+iframe {
+	margin: 10px auto;
+	border-radius: 15px;
+}
+
+#container2 {
+	
+	background: rgba(54, 56, 47, 0.8);
+	width: 500px;
+	padding: 10px;
+	text-align: center;
+	border-radius: 15px;
+	margin-top: 20px;
+}
+
+#container3 {
+	width: 200px;
+	margin: 60px auto 5px auto;
+	text-align: center;
+	padding: 10px;
+}
+
+.photo {
+	border-radius: 5px;
+}
+
+.button {
+	width: 40px;
+	margin: 0 auto;
+	padding: 5px;
+}
+
+.profilepic {
+	margin: 5px auto 20px 200px;
+}
